@@ -1,0 +1,19 @@
+{
+  "name": "business_process_functionalities",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "build": "slidev build",
+    "dev": "slidev --open",
+    "export": "slidev export"
+  },
+  "dependencies": {
+    "@slidev/cli": "^0.49.13",
+    "@slidev/theme-default": "latest",
+    "@slidev/theme-seriph": "latest",
+    "vue": "^3.4.31"
+  },
+  "devDependencies": {
+    "playwright-chromium": "^1.45.1"
+  }
+}

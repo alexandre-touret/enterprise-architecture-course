@@ -1,0 +1,22 @@
+name: Deploy pages
+on: push
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v2
+        with:
+          node-version: '20'
+      - name: Install dependencies
+        run: npm install
+      - name: Install slidev
+        run:  npm i -g @slidev/cli
+      - name: Build
+        run: slidev build
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v3
+        if: github.ref == 'refs/heads/main' # Authorize the deployment for the main branch only
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./dist
