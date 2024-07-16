@@ -2,7 +2,7 @@ name: Deploy pages
 on:
   push:
     branches:
-      - main  # Set a branch that will trigger a deployment
+      - feat/gh-pages-slidev  # Set a branch that will trigger a deployment
   pull_request:
   workflow_dispatch:
 jobs:
