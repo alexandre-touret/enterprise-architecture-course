@@ -2,7 +2,7 @@ name: Deploy pages
 on:
   push:
     branches:
-      - feat/gh-pages-slidev  # Set a branch that will trigger a deployment
+      - main  # Set a branch that will trigger a deployment
   pull_request:
   workflow_dispatch:
 jobs:
@@ -23,7 +23,7 @@ jobs:
         run: npm run build_prod
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
-        if: github.ref == 'refs/heads/feat/gh-pages-slidev' # Authorize the deployment for the main branch only
+        if: github.ref == 'refs/heads/main' # Authorize the deployment for the main branch only
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./dist
