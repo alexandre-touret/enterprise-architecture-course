@@ -4,6 +4,7 @@
   "private": true,
   "scripts": {
     "build": "slidev build",
+    "build_prod": "slidev build --base=/enterprise-architecture-course",
     "dev": "slidev --open",
     "export": "slidev export"
   },

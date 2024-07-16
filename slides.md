@@ -26,6 +26,7 @@ download: true
 
 # Enterprise Architecture & Business Processes management introduction course
 
+lorem ipsum
 
 ---
 src: ./pages/01-introduction.md
