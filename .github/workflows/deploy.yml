@@ -20,7 +20,7 @@ jobs:
       - name: Install slidev
         run:  npm i -g @slidev/cli
       - name: Build
-        run: slidev build
+        run: npm run build_prod
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         if: github.ref == 'refs/heads/feat/gh-pages-slidev' # Authorize the deployment for the main branch only
