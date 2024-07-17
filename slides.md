@@ -24,9 +24,8 @@ colorSchema: light
 download: true
 ---
 
-# Enterprise Architecture & Business Processes management introduction course
+# Modélisation des processus et fonctionnalités
 
-lorem ipsum
 
 ---
 src: ./pages/01-introduction.md
