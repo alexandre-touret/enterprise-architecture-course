@@ -12,4 +12,3 @@ Les points abordés seront :
 * Les processus métier
 * La cartographie des processus
 * Les flux 
-* Les types de bases données
