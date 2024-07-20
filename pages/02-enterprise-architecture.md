@@ -7,14 +7,16 @@ Rappels sur le système d'information
 # Systèmes d'Informations (Rappels)
 ## Définition
 
-> Le système d'information (SI) est un ensemble organisé de **ressources** qui permet de collecter, stocker, traiter et distribuer de l'information, en général grâce à un réseau d'ordinateurs. Il s'agit d'un système **socio-technique composé de deux sous-systèmes, l'un social et l'autre technique**. Le sous-système social est composé de la structure organisationnelle et des personnes liées au SI. Le sous-système technique est composé des technologies (hardware, software et équipements de télécommunication) et des processus d'affaires concernés par le SI.
+> Le système d'information (SI) est un ensemble organisé de <span v-mark.circle.red>ressources</span> qui permet de collecter, stocker, traiter et distribuer de l'information, en général grâce à un réseau d'ordinateurs. Il s'agit d'un système <span v-mark.underline.red>socio-technique composé de deux sous-systèmes, l'un social et l'autre technique</span>. Le sous-système social est composé de la <span v-mark.circle.red>structure organisationnelle et des personnes liées au SI</span>. 
+>
+>Le sous-système technique est composé des technologies (hardware, software et équipements de télécommunication) et des processus d'affaires concernés par le SI.
 >
 
-Source: Wikipedia <mdi-wikipedia  /> [@system-information-wikipedia]
+Source: <mdi-wikipedia  />ikipedia [@system-information-wikipedia]
 ---
 
 ## Enjeux
-Les SI deviennent de plus en complexes 
+Les SI deviennent de plus en complexes. 
 
 Les causes :
 * De plus en plus de contraintes réglementaires : GDPR, PCI DSS, OIV,...
@@ -82,15 +84,24 @@ Les actions à mener sont:
 
 ---
 
-## Les différentes visions
+## Les différentes vues
 
 Pour définir un SI on va s'appuyer sur différentes visions complémentaires:
 
 ![](/public/urbanisation_si.png)
 
----
+--- 
 
-## Une vue métier
+### La vue métier
+
+La vue métier se concentre sur les processus et les activités de l'entreprise. Elle décrit comment l'entreprise fonctionne, quels sont ses objectifs, et comment les différentes activités et processus s'articulent pour atteindre ces objectifs.
+
+* Objectifs et Stratégies : Définition des objectifs de l'entreprise et des stratégies pour les atteindre.
+* Processus Métier : Description des processus métier clés, de leur déroulement et des interactions entre eux.
+* Rôles et Responsabilités : Identification des acteurs (humains ou systèmes) impliqués dans les processus métier et leurs responsabilités.
+* Flux d'Information : Analyse des flux d'information nécessaires au bon fonctionnement des processus métier.
+
+
 <v-clicks>
 
 ```plantuml
@@ -105,7 +116,55 @@ Client -> "Satisfaire les commandes" :[Commande de produits]
 "Satisfaire les commandes" -> Fournisseur :[Commande auprès du fournisseur]
 @enduml
 ```
+</v-clicks>
 
+---
+
+### La vue fonctionnelle
+
+La vue fonctionnelle détaille les fonctions nécessaires pour supporter les processus métier. Elle décrit les services et fonctionnalités attendus des systèmes d'information pour répondre aux besoins métiers.
+
+* Fonctions Métier : Décomposition des processus métier en fonctions ou services spécifiques.
+* Cartographie des Fonctions : Organisation des fonctions en catégories ou domaines fonctionnels.
+* Interactions Fonctionnelles : Définition des interactions et des dépendances entre les différentes fonctions.
+
+<v-clicks>
+ 
+
+```plantuml
+@startuml
+actor Client
+actor Fournisseur
+frame Entreprise {
+frame "Satisfaire les commandes"{
+process "Traiter les commandes"
+process "Packager les commandes"
+process "Livrer les commandes"
+process "Acquérir les commandes auprès des fournisseurs"
+}
+}
+
+Client -> "Traiter les commandes" :[Commande de produits]
+"Traiter les commandes" -> "Packager les commandes"
+"Packager les commandes" -> "Livrer les commandes"
+ "Livrer les commandes" -> Client
+"Traiter les commandes"  --> "Acquérir les commandes auprès des fournisseurs"
+"Acquérir les commandes auprès des fournisseurs" -> Fournisseur
+@enduml
+
+
+```
+
+</v-clicks>
+
+---
+
+### Dépendances et impacts des processus métier
+
+Différents domaines métier sont impactés:
+* La logistique
+* La vente
+* Les canaux de vente (Web, Téléphonie)
 
 
 ```plantuml
@@ -131,17 +190,28 @@ Client -> "Traiter les commandes" :[Commande de produits]
 
 
 ```
-</v-clicks>
----
-
-Différents domaines métier sont impactés:
-* La logistique
-* La vente
-* Les canaux de vente (Web, Téléphonie)
 
 ---
 
-## La traduction technique
+## La vue applicative
+
+La vue applicative se concentre sur les applications et les systèmes informatiques qui implémentent les fonctions identifiées dans la vue fonctionnelle. Elle décrit comment les applications sont organisées, interconnectées et déployées pour supporter les processus métier.
+
+* Applications et Modules : Inventaire des applications et modules logiciels utilisés.
+* Architecture Applicative : Organisation des applications et des modules, y compris les interactions et les intégrations entre eux.
+* Flux Applicatifs : Définition des flux de données et des interactions entre les applications.
+
+---
+
+## La vue technique
+
+La vue technique se focalise sur les aspects technologiques et infrastructurels qui supportent les applications et les systèmes informatiques. Elle décrit les composants matériels et logiciels nécessaires à l'implémentation des applications.
+
+* Infrastructure Technique : Description des composants matériels (serveurs, réseaux, stockage) et logiciels (systèmes d'exploitation, bases de données, middleware).
+* Architecture Technique : Organisation de l'infrastructure technique et des technologies utilisées.
+* Sécurité et Performance : Aspects relatifs à la sécurité, la résilience, et la performance des systèmes.
+
+---
 
 ```plantuml
 @startuml
@@ -190,12 +260,15 @@ crm_apis -->crm_databases
 compta_apis --> compta_databases
 @enduml
 ```
+--- 
 
 
+## En résumé
+
+En résumé, les différentes vues en urbanisation permettent d'avoir une vision globale et structurée des systèmes d'information d'une entreprise. Elles facilitent la compréhension des relations et des dépendances entre les processus métier, les fonctions, les applications, et les infrastructures techniques, tout en aidant à identifier les zones d'amélioration et à planifier les évolutions futures.
+
+---
 
 ## La cartographie et le Plan d'Occupation des Sols
 
 La cartographie d'un système d'information s'appuie sur le Plan d'Occupation des Sols
-
-
-
