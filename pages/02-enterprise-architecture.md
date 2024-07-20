@@ -74,10 +74,19 @@ Les actions à mener sont:
 * Identifier le client automatiquement lors d'un appel quelque soit l'endroit ou il se trouve
 
 
-#### Les questions
+
+**Les questions**
 * Quels sont les impacts sur le métier?
 * Quels sont les impacts sur le système d'information?
 * Quelles sont les innovations qui peuvent aider?
+
+---
+
+## Les différentes visions
+
+Pour définir un SI on va s'appuyer sur différentes visions complémentaires:
+
+![](/public/urbanisation_si.png)
 
 ---
 
@@ -182,11 +191,11 @@ compta_apis --> compta_databases
 @enduml
 ```
 
-## La cartographie et le POS
 
 
+## La cartographie et le Plan d'Occupation des Sols
 
+La cartographie d'un système d'information s'appuie sur le Plan d'Occupation des Sols
 
-## Les différentes strates
 
 
