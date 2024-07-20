@@ -1,10 +1,4 @@
-<!--
-Rappels sur le système d'information
-* Comment est défini et cartographié le système d'information
-* Les différentes strates
--->
-
-# Systèmes d'Informations (Rappels)
+# Systèmes d'Information (Rappels)
 ## Définition
 
 > Le système d'information (SI) est un ensemble organisé de <span v-mark.circle.red>ressources</span> qui permet de collecter, stocker, traiter et distribuer de l'information, en général grâce à un réseau d'ordinateurs. Il s'agit d'un système <span v-mark.underline.red>socio-technique composé de deux sous-systèmes, l'un social et l'autre technique</span>. Le sous-système social est composé de la <span v-mark.circle.red>structure organisationnelle et des personnes liées au SI</span>. 
@@ -75,8 +69,6 @@ Les actions à mener sont:
 * Uniformiser les organisations
 * Identifier le client automatiquement lors d'un appel quelque soit l'endroit ou il se trouve
 
-
-
 **Les questions**
 * Quels sont les impacts sur le métier?
 * Quels sont les impacts sur le système d'information?
@@ -144,7 +136,7 @@ process "Acquérir les commandes auprès des fournisseurs"
 }
 }
 
-Client -> "Traiter les commandes" :[Commande de produits]
+Client -> "Traiter les commandes" : Commande de produits
 "Traiter les commandes" -> "Packager les commandes"
 "Packager les commandes" -> "Livrer les commandes"
  "Livrer les commandes" -> Client
@@ -187,8 +179,6 @@ Client -> "Traiter les commandes" :[Commande de produits]
 "Traiter les commandes"  --> "Acquérir les commandes auprès des fournisseurs"
 "Acquérir les commandes auprès des fournisseurs" -> Fournisseur
 @enduml
-
-
 ```
 
 ---
@@ -262,13 +252,231 @@ compta_apis --> compta_databases
 ```
 --- 
 
-
 ## En résumé
 
 En résumé, les différentes vues en urbanisation permettent d'avoir une vision globale et structurée des systèmes d'information d'une entreprise. Elles facilitent la compréhension des relations et des dépendances entre les processus métier, les fonctions, les applications, et les infrastructures techniques, tout en aidant à identifier les zones d'amélioration et à planifier les évolutions futures.
 
 ---
+layout: two-cols
+---
 
 ## La cartographie et le Plan d'Occupation des Sols
 
-La cartographie d'un système d'information s'appuie sur le Plan d'Occupation des Sols
+La cartographie d'un système d'information s'appuie sur le Plan d'Occupation des Sols (POS).
+
+Le POS divise le système d'information en différentes zones chacune ayant des rôles et des responsabilités spécifiques. Cette segmentation facilite la gestion, l'évolution et la maintenance du SI en permettant une vue claire des différentes fonctions et de leurs interactions.
+
+::right::
+![](/public/pos-template.webp)
+
+---
+## Découpage du POS
+
+Le découpage du POS est réalisé en zones, quartiers et îlots.
+
+Ils permettent de structurer l'architecture en niveaux de granularité différents pour mieux organiser, comprendre et gérer les composants du système d'information.
+
+```plantuml
+@startuml
+skinparam componentStyle rectangle
+
+folder "Eléments d'urbanisme"{
+[SI] --> [Zone] : [1-N] Composition
+[Zone] -> [Quartier] : [1-N] Regroupement
+[Quartier] -> [Ilôt] : [1-N] Assemblage
+}
+[Quartier] --> [Processus] : [N-N] Appels de services
+
+@enduml
+```
+
+--- 
+
+## Les zones
+Une zone est le niveau le plus macro de la structuration du système d'information. Elle regroupe des ensembles de fonctions et d'applications qui partagent des objectifs communs et qui répondent à des besoins métiers ou techniques similaires. Les zones représentent les grandes familles de services du SI.
+Exemples de zones :
+
+* Zone d'Échanges : Inclut les systèmes de gestion des flux de données entre les applications internes et externes.
+* Zone de Pilotage : Comprend les outils et systèmes de pilotage et de reporting.
+* Zone Opérationnelle : Regroupe les systèmes qui supportent les activités principales de l'entreprise.
+* Zone de Support : Contient les applications de soutien comme la gestion des ressources humaines et financières.
+
+---
+## Les quartiers
+
+Un quartier est une subdivision d'une zone. Il regroupe des sous-ensembles plus spécifiques de fonctions et d'applications au sein d'une même zone. Les quartiers permettent de détailler davantage l'organisation au sein d'une zone et de segmenter les responsabilités.
+Exemples de quartiers dans la Zone Opérationnelle :
+
+* Quartier de la Production : Comprend les systèmes de gestion de la production, la planification et le contrôle de la fabrication.
+* Quartier de la Logistique : Inclut les systèmes de gestion des stocks, de la chaîne d'approvisionnement et de la distribution.
+* Quartier du Service Client : Regroupe les systèmes de CRM et les outils de gestion des centres d'appels.
+
+---
+## Les îlots
+
+Un îlot est le niveau le plus fin de la structuration. Il correspond à une unité fonctionnelle très spécifique au sein d'un quartier. Les îlots représentent les composants individuels, les modules ou les applications spécifiques qui réalisent des tâches précises.
+
+Exemples d'îlots dans le Quartier de la Logistique :
+
+* Îlot de Gestion des Stocks : Application de gestion des inventaires et des entrepôts.
+* Îlot de Suivi des Livraisons : Outil de tracking des livraisons et des expéditions.
+* Îlot de Planification des Transports : Module de planification et d'optimisation des itinéraires de transport.
+
+
+---
+layout: two-cols
+---
+
+### Récapitulatif de la Hiérarchie
+
+* **Zone** : Regroupe de grandes familles de services (ex : Zone Opérationnelle).
+* **Quartier** : Sous-ensemble plus détaillé d'une zone (ex : Quartier de la Logistique).
+* **Îlot** : Unité fonctionnelle spécifique dans un quartier (ex : Îlot de Gestion des Stocks).
+
+::right::
+### Utilité de cette Structuration
+
+* **Clarté et Compréhension** : Facilite la compréhension globale du système d'information en offrant une vue hiérarchisée et structurée.
+* **Gestion et Maintenance** : Simplifie la gestion et la maintenance en permettant d'isoler et de traiter les composants par niveaux de granularité.
+* **Planification et Évolution** : Aide à la planification des évolutions du SI en identifiant les interactions et les dépendances à différents niveaux.
+* **Communication** : Améliore la communication entre les parties prenantes en fournissant un vocabulaire commun et une vision partagée du SI.
+
+
+---
+layout: two-cols
+---
+
+## Zone d'Échanges
+
+La zone d'échanges se concentre sur les interactions et les flux de données entre les différentes applications et entre le SI de l'entreprise et les systèmes externes.
+
+* Intégration des Systèmes : Middleware, ESB (Enterprise Service Bus), API Gateway.
+* Gestion des Flux : ETL (Extract, Transform, Load), orchestrateurs de processus, services de message queue.
+* Communication Externe : Interfaces avec des partenaires, clients, fournisseurs, etc.
+
+::right::
+![](/public/pos-template.webp)
+
+---
+layout: two-cols
+---
+
+## Zone de Pilotage
+
+Cette zone se focalise sur le pilotage, la gestion et le contrôle des activités de l'entreprise à travers les données et les indicateurs clés de performance (KPI).
+
+* Systèmes de Reporting : Outils de Business Intelligence (BI), tableaux de bord.
+* Analyse de Données : Outils d'analytics, data warehouses, data lakes.
+* Gestion de la Performance : Solutions de gestion de la performance d'entreprise (EPM), suivi des KPI.
+
+::right::
+![](/public/pos-template.webp)
+
+---
+layout: two-cols
+---
+
+## Zone Opérationnelle
+
+La zone opérationnelle regroupe les fonctions et les applications qui supportent directement les activités métier de l'entreprise.
+
+* Gestion des Opérations : ERP (Enterprise Resource Planning), CRM (Customer Relationship Management).
+* Production et Logistique : Systèmes de gestion de la production, de la chaîne d'approvisionnement, de la logistique.
+* Support Client : Systèmes de gestion des services client, centres d'appels.
+
+::right::
+![](/public/pos-template.webp)
+
+---
+layout: two-cols
+---
+
+## Zone de Support
+
+Cette zone comprend les fonctions et les applications qui supportent les activités de support et de maintenance de l'entreprise.
+
+* Ressources Humaines : Systèmes de gestion des ressources humaines (HRM), paie.
+* Finances et Comptabilité : Systèmes de gestion financière et comptable.
+* Informatique et Sécurité : Outils de gestion IT, gestion des accès et des identités (IAM), surveillance et sécurité des systèmes.
+
+::right::
+![](/public/pos-template.webp)
+
+---
+layout: two-cols
+---
+
+## Zone de Services Communs
+
+Elle regroupe les services partagés et les ressources communes utilisées par différentes zones du SI.
+
+* Services Transverses : Annuaire d'entreprise, services de courrier électronique, gestion documentaire.
+* Infrastructures Partagées : Bases de données centralisées, services de stockage, services réseau.
+
+::right::
+![](/public/pos-template.webp)
+
+---
+
+```plantuml
+@startuml
+actor Client
+actor Fournisseur
+frame Entreprise {
+frame "Satisfaire les commandes"{
+process "Traiter les commandes"
+process "Packager les commandes"
+process "Livrer les commandes"
+process "Acquérir les commandes auprès des fournisseurs"
+}
+}
+
+Client -> "Traiter les commandes" :[Commande de produits]
+"Traiter les commandes" -> "Packager les commandes"
+"Packager les commandes" -> "Livrer les commandes"
+ "Livrer les commandes" -> Client
+"Traiter les commandes"  --> "Acquérir les commandes auprès des fournisseurs"
+"Acquérir les commandes auprès des fournisseurs" -> Fournisseur
+@enduml
+```
+--- 
+
+TODO refaire 
+
+```plantuml
+@startuml
+card "Zone gestion des offres" {
+agent "Contrôler produit"
+
+}
+
+card "Zone gestion des clients" {
+agent "Contrôler client"
+}
+
+
+
+card "Zone commandes" {
+
+agent "Contrôler commande"
+agent "Valider commande"
+agent "Envoyer commande"
+}
+
+card "Zone échanges" {
+agent "Préparer commande"
+}
+
+card "Zone support"{
+
+}
+
+
+"Contrôler produit" -[hidden]d->   "Contrôler commande"
+
+"Contrôler commande"-[hidden]d->  "Valider commande"
+"Valider commande" -[hidden]d-> "Envoyer commande"
+"Envoyer commande" -[hidden]d->"Zone support"
+@enduml
+
+```

@@ -32,7 +32,6 @@ addons:
 
 # Modélisation des processus et fonctionnalités
 
-
 ---
 src: ./pages/01-introduction.md
 ---
