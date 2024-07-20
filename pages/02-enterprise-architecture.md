@@ -270,6 +270,7 @@ Le POS divise le système d'information en différentes zones chacune ayant des 
 ![](/public/pos-template.webp)
 
 ---
+
 ## Découpage du POS
 
 Le découpage du POS est réalisé en zones, quartiers et îlots.
@@ -294,6 +295,7 @@ folder "Eléments d'urbanisme"{
 
 ## Les zones
 Une zone est le niveau le plus macro de la structuration du système d'information. Elle regroupe des ensembles de fonctions et d'applications qui partagent des objectifs communs et qui répondent à des besoins métiers ou techniques similaires. Les zones représentent les grandes familles de services du SI.
+
 Exemples de zones :
 
 * Zone d'Échanges : Inclut les systèmes de gestion des flux de données entre les applications internes et externes.
@@ -302,9 +304,11 @@ Exemples de zones :
 * Zone de Support : Contient les applications de soutien comme la gestion des ressources humaines et financières.
 
 ---
+
 ## Les quartiers
 
 Un quartier est une subdivision d'une zone. Il regroupe des sous-ensembles plus spécifiques de fonctions et d'applications au sein d'une même zone. Les quartiers permettent de détailler davantage l'organisation au sein d'une zone et de segmenter les responsabilités.
+
 Exemples de quartiers dans la Zone Opérationnelle :
 
 * Quartier de la Production : Comprend les systèmes de gestion de la production, la planification et le contrôle de la fabrication.
@@ -312,16 +316,16 @@ Exemples de quartiers dans la Zone Opérationnelle :
 * Quartier du Service Client : Regroupe les systèmes de CRM et les outils de gestion des centres d'appels.
 
 ---
+
 ## Les îlots
 
 Un îlot est le niveau le plus fin de la structuration. Il correspond à une unité fonctionnelle très spécifique au sein d'un quartier. Les îlots représentent les composants individuels, les modules ou les applications spécifiques qui réalisent des tâches précises.
 
 Exemples d'îlots dans le Quartier de la Logistique :
 
-* Îlot de Gestion des Stocks : Application de gestion des inventaires et des entrepôts.
-* Îlot de Suivi des Livraisons : Outil de tracking des livraisons et des expéditions.
-* Îlot de Planification des Transports : Module de planification et d'optimisation des itinéraires de transport.
-
+* Îlot de gestion des stocks : Application de gestion des inventaires et des entrepôts.
+* Îlot de suivi des livraisons : Outil de tracking des livraisons et des expéditions.
+* Îlot de planification des transports : Module de planification et d'optimisation des itinéraires de transport.
 
 ---
 layout: two-cols
