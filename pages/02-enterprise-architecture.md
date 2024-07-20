@@ -10,7 +10,7 @@ Rappels sur le système d'information
 > Le système d'information (SI) est un ensemble organisé de **ressources** qui permet de collecter, stocker, traiter et distribuer de l'information, en général grâce à un réseau d'ordinateurs. Il s'agit d'un système **socio-technique composé de deux sous-systèmes, l'un social et l'autre technique**. Le sous-système social est composé de la structure organisationnelle et des personnes liées au SI. Le sous-système technique est composé des technologies (hardware, software et équipements de télécommunication) et des processus d'affaires concernés par le SI.
 >
 
-Source: Wikipedia <mdi-wikipedia  />
+Source: Wikipedia <mdi-wikipedia  /> [@system-information-wikipedia]
 ---
 
 ## Enjeux
@@ -29,12 +29,12 @@ Les causes :
 
 > « Toute organisation qui conçoit un système, au sens large, concevra une structure qui sera la copie de la structure de communication de l’organisation. »
 
-- M. Conway
+- M. Conway  [@connway-law]
+<v-clicks>
+<AutoFitText :max="100" :min="50" modelValue="Le SI est bien trop souvent le reflet de l'organisation ! 
+"/>
 
-<div class="absolute right-60px bottom-60px">
-Le SI est bien trop souvent le reflet de l'organisation !
-</div>
-
+</v-clicks>
 --- 
 
 # L' urbanisation
@@ -59,7 +59,7 @@ Il va donner la stratégie des différentes actions sur plusieurs années (ex. 5
 * Il se base en premier lieu sur un audit de l'existant.
 * Il définit ensuite les grands axes d'actions à réaliser ainsi que la stratégie à adopter
 
-Exemple: le schéma directeur de la DSI de la région [Centre Val de Loire](https://www.viragegroup.com/ressources/exemple-schema-directeur-informatique-temoignage-de-la-dsi-region-centre-val-de-loire/).
+Exemple: le schéma directeur de la DSI de la région [Centre Val de Loire](https://www.viragegroup.com/ressources/exemple-schema-directeur-informatique-temoignage-de-la-dsi-region-centre-val-de-loire/). [@schema-directeur-cvl]
 
 ---
 

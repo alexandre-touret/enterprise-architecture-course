@@ -22,6 +22,12 @@ transition: slide-left
 mdc: true
 colorSchema: light
 download: true
+biblio:
+  filename:
+    - bibliography.bib
+  locale: 'fr-FR' 
+addons:
+- slidev-addon-citations
 ---
 
 # Modélisation des processus et fonctionnalités
@@ -41,4 +47,8 @@ src: ./pages/03-how-to-design.md
 
 ---
 src: ./pages/04-business-process-analysis.md
+---
+
+---
+src: ./pages/99-bibliography.md
 ---
