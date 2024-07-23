@@ -67,20 +67,20 @@ Les actions à mener sont:
 
 * Centrer l'activité sur le client
 * Uniformiser les organisations
-* Identifier le client automatiquement lors d'un appel quelque soit l'endroit ou il se trouve
+* Identifier le client automatiquement lors d'un appel quelque soit l'endroit où il se trouve
 
 **Les questions**
-* Quels sont les impacts sur le métier?
-* Quels sont les impacts sur le système d'information?
-* Quelles sont les innovations qui peuvent aider?
+* Quels sont les impacts sur le métier ?
+* Quels sont les impacts sur le système d'information ?
+* Quelles sont les innovations qui peuvent aider ?
 
 ---
 
 ## Les différentes vues
 
-Pour définir un SI on va s'appuyer sur différentes visions complémentaires:
+Pour définir un SI on va s'appuyer sur différentes visions complémentaires :
 
-![](/public/urbanisation_si.png)
+![](/strates_architecture.svg)
 
 --- 
 
@@ -264,10 +264,12 @@ layout: two-cols
 
 La cartographie d'un système d'information s'appuie sur le Plan d'Occupation des Sols (POS).
 
-Le POS divise le système d'information en différentes zones chacune ayant des rôles et des responsabilités spécifiques. Cette segmentation facilite la gestion, l'évolution et la maintenance du SI en permettant une vue claire des différentes fonctions et de leurs interactions.
+Le POS divise le système d'information en différentes zones chacune ayant des rôles et des responsabilités spécifiques. 
+
+Cette segmentation facilite la gestion, l'évolution et la maintenance du SI en permettant une vue claire des différentes fonctions et de leurs interactions.
 
 ::right::
-![](/public/pos-template.webp)
+![](/public/pos.svg)
 
 ---
 
@@ -291,10 +293,14 @@ folder "Eléments d'urbanisme"{
 @enduml
 ```
 
---- 
+---
+layout: two-cols
+---
 
 ## Les zones
-Une zone est le niveau le plus macro de la structuration du système d'information. Elle regroupe des ensembles de fonctions et d'applications qui partagent des objectifs communs et qui répondent à des besoins métiers ou techniques similaires. Les zones représentent les grandes familles de services du SI.
+Une zone est le niveau le plus macro de la structuration du système d'information. Elle regroupe des ensembles de fonctions et d'applications qui partagent des objectifs communs et qui répondent à des besoins métiers ou techniques similaires. 
+
+Les zones représentent les grandes familles de services du SI.
 
 Exemples de zones :
 
@@ -302,6 +308,85 @@ Exemples de zones :
 * Zone de Pilotage : Comprend les outils et systèmes de pilotage et de reporting.
 * Zone Opérationnelle : Regroupe les systèmes qui supportent les activités principales de l'entreprise.
 * Zone de Support : Contient les applications de soutien comme la gestion des ressources humaines et financières.
+
+::right::
+
+![](/pos.svg)
+
+
+---
+layout: two-cols
+---
+
+## Zone d'Échanges
+
+La zone d'échanges se concentre sur les interactions et les flux de données entre les différentes applications et entre le SI de l'entreprise et les systèmes externes.
+
+* Intégration des Systèmes : Middleware, ESB (Enterprise Service Bus), API Gateway.
+* Gestion des Flux : ETL (Extract, Transform, Load), orchestrateurs de processus, services de message queue.
+* Communication Externe : Interfaces avec des partenaires, clients, fournisseurs, etc.
+
+::right::
+![](/public/pos_echange.svg)
+
+---
+layout: two-cols
+---
+
+## Zone de Pilotage
+
+Cette zone se focalise sur le pilotage, la gestion et le contrôle des activités de l'entreprise à travers les données et les indicateurs clés de performance (KPI).
+
+* Systèmes de Reporting : Outils de Business Intelligence (BI), tableaux de bord.
+* Analyse de Données : Outils d'analytics, data warehouses, data lakes.
+* Gestion de la Performance : Solutions de gestion de la performance d'entreprise (EPM), suivi des KPI.
+
+::right::
+![](/public/pos_pilotage.svg)
+
+---
+layout: two-cols
+---
+
+## Zone Opérationnelle
+
+La zone opérationnelle regroupe les fonctions et les applications qui supportent directement les activités métier de l'entreprise.
+
+* Gestion des Opérations : ERP (Enterprise Resource Planning), CRM (Customer Relationship Management).
+* Production et Logistique : Systèmes de gestion de la production, de la chaîne d'approvisionnement, de la logistique.
+* Support Client : Systèmes de gestion des services client, centres d'appels.
+
+::right::
+![](/public/pos_operation.svg)
+
+---
+layout: two-cols
+---
+
+## Zone de Support
+
+Cette zone comprend les fonctions et les applications qui supportent les activités de support et de maintenance de l'entreprise.
+
+* Ressources Humaines : Systèmes de gestion des ressources humaines (HRM), paie.
+* Finances et Comptabilité : Systèmes de gestion financière et comptable.
+* Informatique et Sécurité : Outils de gestion IT, gestion des accès et des identités (IAM), surveillance et sécurité des systèmes.
+
+::right::
+![](/public/pos_support.svg)
+
+---
+layout: two-cols
+---
+
+## Zone de Services Communs
+
+Elle regroupe les services partagés et les ressources communes utilisées par différentes zones du SI.
+
+* Services Transverses : Annuaire d'entreprise, services de courrier électronique, gestion documentaire.
+* Infrastructures Partagées : Bases de données centralisées, services de stockage, services réseau.
+
+::right::
+![](/public/pos_services_communs.svg)
 
 ---
 
@@ -346,79 +431,6 @@ layout: two-cols
 * **Communication** : Améliore la communication entre les parties prenantes en fournissant un vocabulaire commun et une vision partagée du SI.
 
 
----
-layout: two-cols
----
-
-## Zone d'Échanges
-
-La zone d'échanges se concentre sur les interactions et les flux de données entre les différentes applications et entre le SI de l'entreprise et les systèmes externes.
-
-* Intégration des Systèmes : Middleware, ESB (Enterprise Service Bus), API Gateway.
-* Gestion des Flux : ETL (Extract, Transform, Load), orchestrateurs de processus, services de message queue.
-* Communication Externe : Interfaces avec des partenaires, clients, fournisseurs, etc.
-
-::right::
-![](/public/pos-template.webp)
-
----
-layout: two-cols
----
-
-## Zone de Pilotage
-
-Cette zone se focalise sur le pilotage, la gestion et le contrôle des activités de l'entreprise à travers les données et les indicateurs clés de performance (KPI).
-
-* Systèmes de Reporting : Outils de Business Intelligence (BI), tableaux de bord.
-* Analyse de Données : Outils d'analytics, data warehouses, data lakes.
-* Gestion de la Performance : Solutions de gestion de la performance d'entreprise (EPM), suivi des KPI.
-
-::right::
-![](/public/pos-template.webp)
-
----
-layout: two-cols
----
-
-## Zone Opérationnelle
-
-La zone opérationnelle regroupe les fonctions et les applications qui supportent directement les activités métier de l'entreprise.
-
-* Gestion des Opérations : ERP (Enterprise Resource Planning), CRM (Customer Relationship Management).
-* Production et Logistique : Systèmes de gestion de la production, de la chaîne d'approvisionnement, de la logistique.
-* Support Client : Systèmes de gestion des services client, centres d'appels.
-
-::right::
-![](/public/pos-template.webp)
-
----
-layout: two-cols
----
-
-## Zone de Support
-
-Cette zone comprend les fonctions et les applications qui supportent les activités de support et de maintenance de l'entreprise.
-
-* Ressources Humaines : Systèmes de gestion des ressources humaines (HRM), paie.
-* Finances et Comptabilité : Systèmes de gestion financière et comptable.
-* Informatique et Sécurité : Outils de gestion IT, gestion des accès et des identités (IAM), surveillance et sécurité des systèmes.
-
-::right::
-![](/public/pos-template.webp)
-
----
-layout: two-cols
----
-
-## Zone de Services Communs
-
-Elle regroupe les services partagés et les ressources communes utilisées par différentes zones du SI.
-
-* Services Transverses : Annuaire d'entreprise, services de courrier électronique, gestion documentaire.
-* Infrastructures Partagées : Bases de données centralisées, services de stockage, services réseau.
-
-::right::
-![](/public/pos-template.webp)
 
 ---
 
