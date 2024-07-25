@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Généré par Microsoft Visio, SVG Export strates_architecture.svg Page 1 -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events"
+		xmlns:v="http://schemas.microsoft.com/visio/2003/SVGExtensions/" width="8.30938in" height="4.48278in"
+		viewBox="0 0 598.276 322.76" xml:space="preserve" color-interpolation-filters="sRGB" class="st10">
+	<v:documentProperties v:langID="1036" v:metric="true" v:viewMarkup="false"/>
+
+	<style type="text/css">
+	<![CDATA[
+		.st1 {fill:url(#grad0-4);stroke:#3c63ac;stroke-dasharray:22.5,13.5;stroke-width:1.5}
+		.st2 {fill:#3c63ac;stroke:#30518f;stroke-width:0.75}
+		.st3 {fill:#feffff;font-family:Calibri;font-size:1.16666em}
+		.st4 {fill:#c55a11;stroke:#c7c8c8;stroke-width:0.25}
+		.st5 {fill:#feffff;font-family:Calibri;font-size:0.833336em}
+		.st6 {font-size:1em}
+		.st7 {fill:#538135;stroke:#c7c8c8;stroke-width:0.25}
+		.st8 {fill:#000000;fill-opacity:0.8;stroke:#c7c8c8;stroke-width:0.25}
+		.st9 {fill:#feffff;font-family:Calibri;font-size:1.00001em}
+		.st10 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
+	]]>
+	</style>
+
+	<defs id="Patterns_And_Gradients">
+		<linearGradient id="grad0-4" x1="0" y1="0" x2="1" y2="0" gradientTransform="rotate(60 0.5 0.5)">
+			<stop offset="0" stop-color="#e8ebf4" stop-opacity="1"/>
+			<stop offset="0.24" stop-color="#f4f5f9" stop-opacity="1"/>
+			<stop offset="0.54" stop-color="#feffff" stop-opacity="1"/>
+		</linearGradient>
+	</defs>
+	<g v:mID="0" v:index="1" v:groupContext="foregroundPage">
+		<title>Page 1</title>
+		<v:pageProperties v:drawingScale="0.0393701" v:pageScale="0.0393701" v:drawingUnits="24" v:shadowOffsetX="8.50394"
+				v:shadowOffsetY="-8.50394"/>
+		<g id="shape9-1" v:mID="9" v:groupContext="shape" transform="translate(1.5,-127.364)">
+			<title>Feuille.9</title>
+			<path d="M0 322.76 L595.28 322.76 L595.28 254.73 L0 254.73 L0 322.76 Z" class="st1"/>
+		</g>
+		<g id="shape1-5" v:mID="1" v:groupContext="shape" transform="translate(214.098,-274.766)">
+			<title>Rectangle</title>
+			<desc>Stratégie</desc>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="186.378" cy="299.138" width="372.76" height="47.2441"/>
+			<rect x="0" y="275.516" width="372.756" height="47.2441" class="st2"/>
+			<text x="160.81" y="303.34" class="st3" v:langID="1036"><v:paragraph v:horizAlign="1"/><v:tabList/>Stratégie</text>		</g>
+		<g id="shape2-8" v:mID="2" v:groupContext="shape" transform="translate(214.098,-206.262)">
+			<title>Rectangle.2</title>
+			<desc>Vue métier</desc>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="186.378" cy="299.138" width="372.76" height="47.2441"/>
+			<rect x="0" y="275.516" width="372.756" height="47.2441" class="st2"/>
+			<text x="154.71" y="303.34" class="st3" v:langID="1036"><v:paragraph v:horizAlign="1"/><v:tabList/>Vue métier</text>		</g>
+		<g id="shape3-11" v:mID="3" v:groupContext="shape" transform="translate(214.098,-137.758)">
+			<title>Rectangle.3</title>
+			<desc>Vue fonctionnelle</desc>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="186.378" cy="299.138" width="372.76" height="47.2441"/>
+			<rect x="0" y="275.516" width="372.756" height="47.2441" class="st2"/>
+			<text x="136.02" y="303.34" class="st3" v:langID="1036"><v:paragraph v:horizAlign="1"/><v:tabList/>Vue fonctionnelle</text>		</g>
+		<g id="shape4-14" v:mID="4" v:groupContext="shape" transform="translate(214.098,-69.2539)">
+			<title>Rectangle.4</title>
+			<desc>Vue applicative</desc>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="186.378" cy="299.138" width="372.76" height="47.2441"/>
+			<rect x="0" y="275.516" width="372.756" height="47.2441" class="st2"/>
+			<text x="142.83" y="303.34" class="st3" v:langID="1036"><v:paragraph v:horizAlign="1"/><v:tabList/>Vue applicative</text>		</g>
+		<g id="shape5-17" v:mID="5" v:groupContext="shape" transform="translate(214.098,-0.75)">
+			<title>Rectangle.5</title>
+			<desc>Vue technique</desc>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="186.378" cy="299.138" width="372.76" height="47.2441"/>
+			<rect x="0" y="275.516" width="372.756" height="47.2441" class="st2"/>
+			<text x="145.08" y="303.34" class="st3" v:langID="1036"><v:paragraph v:horizAlign="1"/><v:tabList/>Vue technique</text>		</g>
+		<g id="shape6-20" v:mID="6" v:groupContext="shape" transform="translate(8.81521,-127.364)">
+			<title>Rectangle.6</title>
+			<desc>Vision métier Pourquoi &#38; Quoi ?</desc>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197" v:verticalAlign="0"/>
+			<v:textRect cx="56.6929" cy="256.146" width="113.39" height="133.228"/>
+			<rect x="0" y="189.531" width="113.386" height="133.228" class="st4"/>
+			<text x="29.68" y="202.53" class="st5" v:langID="1036"><v:paragraph v:horizAlign="1"/><v:tabList/>Vision métier<v:lf/><tspan
+						x="19.17" dy="1.2em" class="st6">Pourquoi &#38; Quoi ?</tspan></text>		</g>
+		<g id="shape7-24" v:mID="7" v:groupContext="shape" transform="translate(24.1772,-69.2539)">
+			<title>Rectangle.7</title>
+			<desc>Vision informatique Comment?</desc>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197" v:verticalAlign="2"/>
+			<v:textRect cx="56.6929" cy="259.689" width="113.39" height="126.142"/>
+			<rect x="0" y="196.618" width="113.386" height="126.142" class="st7"/>
+			<text x="16.58" y="303.76" class="st5" v:langID="1036"><v:paragraph v:horizAlign="1"/><v:tabList/>Vision informatique<v:lf/><tspan
+						x="34.3" dy="1.2em" class="st6">Comment?</tspan></text>		</g>
+		<g id="shape10-28" v:mID="10" v:groupContext="shape" transform="translate(24.1772,-127.364)">
+			<title>Feuille.10</title>
+			<desc>Interface</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="49.0119" cy="289.453" width="98.03" height="66.6142"/>
+			<rect x="0" y="256.146" width="98.0239" height="66.6142" class="st8"/>
+			<text x="27.03" y="293.05" class="st9" v:langID="1036"><v:paragraph v:horizAlign="1"/><v:tabList/>Interface</text>		</g>
+	</g>
+</svg>

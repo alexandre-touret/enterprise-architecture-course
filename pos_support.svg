@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Généré par Microsoft Visio, SVG Export pos_support.svg Page 1 -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events"
+		xmlns:v="http://schemas.microsoft.com/visio/2003/SVGExtensions/" width="7.4282in" height="5.61718in"
+		viewBox="0 0 534.831 404.437" xml:space="preserve" color-interpolation-filters="sRGB" class="st5">
+	<v:documentProperties v:langID="1036" v:metric="true" v:viewMarkup="false"/>
+
+	<style type="text/css">
+	<![CDATA[
+		.st1 {fill:#a5a5a5;stroke:#c7c8c8;stroke-width:0.25}
+		.st2 {fill:#feffff;font-family:Calibri;font-size:1.5em}
+		.st3 {font-size:1em}
+		.st4 {fill:#4672c4;stroke:#c7c8c8;stroke-width:0.25}
+		.st5 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
+	]]>
+	</style>
+
+	<g v:mID="0" v:index="1" v:groupContext="foregroundPage">
+		<title>Page 1</title>
+		<v:pageProperties v:drawingScale="0.0393701" v:pageScale="0.0393701" v:drawingUnits="24" v:shadowOffsetX="8.50394"
+				v:shadowOffsetY="-8.50394"/>
+		<g id="shape1016-1" v:mID="1016" v:groupContext="shape" transform="translate(137.73,-338.99)">
+			<title>Rectangle.1000</title>
+			<desc>Zone Echange</desc>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="124.469" cy="371.839" width="248.94" height="65.1968"/>
+			<rect x="0" y="339.24" width="248.939" height="65.1968" class="st1"/>
+			<text x="73.59" y="377.24" class="st2" v:langID="1036"><v:paragraph v:horizAlign="1"/><v:tabList/>Zone Echange</text>		</g>
+		<g id="shape1017-4" v:mID="1017" v:groupContext="shape" transform="translate(137.73,-140.565)">
+			<title>Rectangle.1001</title>
+			<desc>Zone Opération</desc>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="99.2126" cy="319.398" width="198.43" height="170.079"/>
+			<rect x="0" y="234.358" width="198.425" height="170.079" class="st1"/>
+			<text x="41.84" y="324.8" class="st2" v:langID="1036"><v:paragraph v:horizAlign="1"/><v:tabList/>Zone Opération</text>		</g>
+		<g id="shape1018-7" v:mID="1018" v:groupContext="shape" transform="translate(435.368,-244.03)">
+			<title>Rectangle.1002</title>
+			<desc>Zone Référentiel</desc>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="49.6063" cy="371.839" width="99.22" height="65.1968"/>
+			<rect x="0" y="339.24" width="99.2126" height="65.1968" class="st1"/>
+			<text x="31.44" y="366.44" class="st2" v:langID="1036"><v:paragraph v:horizAlign="1"/><v:tabList/>Zone <tspan x="9.05"
+						dy="1.2em" class="st3">Référentiel</tspan></text>		</g>
+		<g id="shape1019-11" v:mID="1019" v:groupContext="shape" transform="translate(137.73,-0.25)">
+			<title>Rectangle.1003</title>
+			<desc>Zone Support</desc>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="124.469" cy="371.839" width="248.94" height="65.1968"/>
+			<rect x="0" y="339.24" width="248.939" height="65.1968" class="st4"/>
+			<text x="75.05" y="377.24" class="st2" v:langID="1036"><v:paragraph v:horizAlign="1"/><v:tabList/>Zone Support</text>		</g>
+		<g id="shape1020-14" v:mID="1020" v:groupContext="shape" transform="translate(0.25,-245.447)">
+			<title>Rectangle.1004</title>
+			<desc>Zone Pilotage</desc>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="42.5197" cy="371.839" width="85.04" height="65.1968"/>
+			<rect x="0" y="339.24" width="85.0394" height="65.1968" class="st1"/>
+			<text x="24.35" y="366.44" class="st2" v:langID="1036"><v:paragraph v:horizAlign="1"/><v:tabList/>Zone <tspan x="12.95"
+						dy="1.2em" class="st3">Pilotage</tspan></text>		</g>
+		<g id="shape1021-18" v:mID="1021" v:groupContext="shape" transform="translate(162.987,-115.308)">
+			<title>Rectangle.1005</title>
+			<desc>Zone Opération</desc>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="99.2126" cy="319.398" width="198.43" height="170.079"/>
+			<rect x="0" y="234.358" width="198.425" height="170.079" class="st1"/>
+			<text x="41.84" y="324.8" class="st2" v:langID="1036"><v:paragraph v:horizAlign="1"/><v:tabList/>Zone Opération</text>		</g>
+		<g id="shape1022-21" v:mID="1022" v:groupContext="shape" transform="translate(188.244,-90.0516)">
+			<title>Rectangle.1006</title>
+			<desc>Zone Opération</desc>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="99.2126" cy="319.398" width="198.43" height="170.079"/>
+			<rect x="0" y="234.358" width="198.425" height="170.079" class="st1"/>
+			<text x="41.84" y="324.8" class="st2" v:langID="1036"><v:paragraph v:horizAlign="1"/><v:tabList/>Zone Opération</text>		</g>
+		<g id="shape1023-24" v:mID="1023" v:groupContext="shape" transform="translate(435.368,-90.0516)">
+			<title>Rectangle.1007</title>
+			<desc>Zone Services communs</desc>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="49.6063" cy="338.078" width="99.22" height="132.718"/>
+			<rect x="0" y="271.719" width="99.2126" height="132.718" class="st1"/>
+			<text x="31.44" y="321.88" class="st2" v:langID="1036"><v:paragraph v:horizAlign="1"/><v:tabList/>Zone <v:newlineChar/><tspan
+						x="19.92" dy="1.2em" class="st3">Services </tspan><tspan x="13.7" dy="1.2em" class="st3">communs</tspan></text>		</g>
+	</g>
+</svg>
