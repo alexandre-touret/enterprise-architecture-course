@@ -84,6 +84,7 @@ Cela aide à comprendre le flux de travail et à identifier les domaines problé
 3. **Ajout de détails** : Une fois les événements identifiés, les participants ajoutent des détails tels que les commandes (actions qui déclenchent des événements), les acteurs et agrégats (objets métier qui gèrent les événements) .
 
 ---
+
 ### Un exemple
 
 ![](/event_storming.svg)
