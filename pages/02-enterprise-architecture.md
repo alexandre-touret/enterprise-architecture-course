@@ -329,7 +329,7 @@ Cette zone se focalise sur le pilotage, la gestion et le contrôle des activité
 
 * Systèmes de Reporting : Outils de Business Intelligence (BI), tableaux de bord.
 * Analyse de Données : Outils d'analytics, data warehouses, data lakes.
-* Gestion de la Performance : Solutions de gestion de la performance d'entreprise (EPM), suivi des KPI.
+* Gestion de la Performance : Solutions de gestion de la performance d'entreprise, suivi des KPI.
 
 ::right::
 ![](/public/pos_pilotage.svg)
@@ -357,7 +357,7 @@ layout: two-cols
 
 Cette zone comprend les fonctions et les applications qui supportent les activités de support et de maintenance de l'entreprise.
 
-* Ressources Humaines : Systèmes de gestion des ressources humaines (HRM), paie.
+* Ressources Humaines : Systèmes de gestion des ressources humaines, paie.
 * Finances et Comptabilité : Systèmes de gestion financière et comptable.
 * Informatique et Sécurité : Outils de gestion IT, gestion des accès et des identités (IAM), surveillance et sécurité des systèmes.
 
@@ -384,7 +384,7 @@ Elle regroupe les services partagés et les ressources communes utilisées par d
 
 Un quartier est une subdivision d'une zone. Il regroupe des sous-ensembles plus spécifiques de fonctions et d'applications au sein d'une même zone. Les quartiers permettent de détailler davantage l'organisation au sein d'une zone et de segmenter les responsabilités.
 
-Exemples de quartiers dans la Zone Opérationnelle :
+Exemples de quartiers dans la zone ppérationnelle :
 
 * Quartier de la Production : Comprend les systèmes de gestion de la production, la planification et le contrôle de la fabrication.
 * Quartier de la Logistique : Inclut les systèmes de gestion des stocks, de la chaîne d'approvisionnement et de la distribution.
@@ -396,10 +396,10 @@ Exemples de quartiers dans la Zone Opérationnelle :
 
 Un îlot est le niveau le plus fin de la structuration. Il correspond à une unité fonctionnelle très spécifique au sein d'un quartier. Les îlots représentent les composants individuels, les modules ou les applications spécifiques qui réalisent des tâches précises.
 
-Exemples d'îlots dans le Quartier de la Logistique :
+Exemples d'îlots dans le quartier de la logistique :
 
 * Îlot de gestion des stocks : Application de gestion des inventaires et des entrepôts.
-* Îlot de suivi des livraisons : Outil de tracking des livraisons et des expéditions.
+* Îlot de suivi des livraisons : Outil de suivi des livraisons et des expéditions.
 * Îlot de planification des transports : Module de planification et d'optimisation des itinéraires de transport.
 
 ---
@@ -419,7 +419,6 @@ layout: two-cols
 * **Gestion et Maintenance** : Simplifie la gestion et la maintenance en permettant d'isoler et de traiter les composants par niveaux de granularité.
 * **Planification et Évolution** : Aide à la planification des évolutions du SI en identifiant les interactions et les dépendances à différents niveaux.
 * **Communication** : Améliore la communication entre les parties prenantes en fournissant un vocabulaire commun et une vision partagée du SI.
-
 
 --- 
 
@@ -450,4 +449,4 @@ Client -> "Traiter les commandes" :[Commande de produits]
 
 ## Leur place dans le POS
 
-![](pos_final.svg)
+![](/pos_final.svg)
