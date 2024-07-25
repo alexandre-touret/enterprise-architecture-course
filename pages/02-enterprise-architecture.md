@@ -6,7 +6,7 @@
 >Le sous-système technique est composé des technologies (hardware, software et équipements de télécommunication) et des processus d'affaires concernés par le SI.
 >
 
-Source: <mdi-wikipedia  />ikipedia [@system-information-wikipedia]
+Source: Wikipedia [@system-information-wikipedia]
 ---
 
 ## Enjeux
@@ -20,18 +20,6 @@ Les causes :
 * Les réductions budgétaires qui obligent de faire plus avec moins
  
 ---
-
-## Et l'organisation dans tout ça ?
-
-> « Toute organisation qui conçoit un système, au sens large, concevra une structure qui sera la copie de la structure de communication de l’organisation. »
-
-- M. Conway  [@connway-law]
-<v-clicks>
-<AutoFitText :max="100" :min="50" modelValue="Le SI est bien trop souvent le reflet de l'organisation ! 
-"/>
-
-</v-clicks>
---- 
 
 # L' urbanisation
 
@@ -254,7 +242,9 @@ compta_apis --> compta_databases
 
 ## En résumé
 
-En résumé, les différentes vues en urbanisation permettent d'avoir une vision globale et structurée des systèmes d'information d'une entreprise. Elles facilitent la compréhension des relations et des dépendances entre les processus métier, les fonctions, les applications, et les infrastructures techniques, tout en aidant à identifier les zones d'amélioration et à planifier les évolutions futures.
+Les différentes vues en urbanisation permettent d'avoir une <span v-mark.circle.red>vision globale et structurée</span> des systèmes d'information d'une entreprise. 
+
+Elles facilitent la compréhension des <span v-mark.circle.red>relations et des dépendances</span> entre les processus métier, les fonctions, les applications, et les infrastructures techniques, tout en aidant à identifier les zones d'amélioration et à planifier les évolutions futures.
 
 ---
 layout: two-cols
@@ -431,8 +421,9 @@ layout: two-cols
 * **Communication** : Améliore la communication entre les parties prenantes en fournissant un vocabulaire commun et une vision partagée du SI.
 
 
+--- 
 
----
+## Rappel des processus métier
 
 ```plantuml
 @startuml
@@ -455,44 +446,8 @@ Client -> "Traiter les commandes" :[Commande de produits]
 "Acquérir les commandes auprès des fournisseurs" -> Fournisseur
 @enduml
 ```
---- 
+---
 
-TODO refaire 
+## Leur place dans le POS
 
-```plantuml
-@startuml
-card "Zone gestion des offres" {
-agent "Contrôler produit"
-
-}
-
-card "Zone gestion des clients" {
-agent "Contrôler client"
-}
-
-
-
-card "Zone commandes" {
-
-agent "Contrôler commande"
-agent "Valider commande"
-agent "Envoyer commande"
-}
-
-card "Zone échanges" {
-agent "Préparer commande"
-}
-
-card "Zone support"{
-
-}
-
-
-"Contrôler produit" -[hidden]d->   "Contrôler commande"
-
-"Contrôler commande"-[hidden]d->  "Valider commande"
-"Valider commande" -[hidden]d-> "Envoyer commande"
-"Envoyer commande" -[hidden]d->"Zone support"
-@enduml
-
-```
+![](pos_final.svg)

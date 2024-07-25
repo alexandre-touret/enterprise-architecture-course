@@ -7,7 +7,6 @@ Les points abordés seront :
 
 * Rappels sur le système d'information
 * Comment est défini et cartographié le système d'information
-* Les différentes strates
 * Les étapes de création d'un logiciel
 * Les processus métier
 * La cartographie des processus
