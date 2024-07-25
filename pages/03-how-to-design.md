@@ -91,6 +91,6 @@ Cela aide à comprendre le flux de travail et à identifier les domaines problé
 
 ---
 
-## Identification des zones du POS - Rappel
+## Identification des zones du POS
 
 ![](/pos_final.svg)
