@@ -86,10 +86,10 @@ Cela aide à comprendre le flux de travail et à identifier les domaines problé
 ---
 ### Un exemple
 
-![](event_storming.svg)
+![](/event_storming.svg)
 
 ---
 
 ## Identification des zones du POS - Rappel
 
-![](pos_final.svg)
+![](/pos_final.svg)
