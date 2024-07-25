@@ -32,6 +32,9 @@ addons:
 
 # Modélisation des processus et fonctionnalités
 
+## Cours Bases de données 
+
+### Alexandre Touret
 ---
 src: ./pages/01-introduction.md
 ---
