@@ -258,7 +258,7 @@ Le POS divise le système d'information en différentes zones chacune ayant des 
 Cette segmentation facilite la gestion, l'évolution et la maintenance du SI en permettant une vue claire des différentes fonctions et de leurs interactions.
 
 ::right::
-![](/public/pos.svg)
+![](/pos.svg)
 
 ---
 
@@ -316,7 +316,7 @@ La zone d'échanges se concentre sur les interactions et les flux de données en
 * Communication Externe : Interfaces avec des partenaires, clients, fournisseurs, etc.
 
 ::right::
-![](/public/pos_echange.svg)
+![](/pos_echange.svg)
 
 ---
 layout: two-cols
@@ -331,7 +331,7 @@ Cette zone se focalise sur le pilotage, la gestion et le contrôle des activité
 * Gestion de la Performance : Solutions de gestion de la performance d'entreprise, suivi des KPI.
 
 ::right::
-![](/public/pos_pilotage.svg)
+![](/pos_pilotage.svg)
 
 ---
 layout: two-cols
@@ -346,7 +346,7 @@ La zone opérationnelle regroupe les fonctions et les applications qui supporten
 * Support Client : Systèmes de gestion des services client, centres d'appels.
 
 ::right::
-![](/public/pos_operation.svg)
+![](/pos_operation.svg)
 
 ---
 layout: two-cols
@@ -361,7 +361,7 @@ Cette zone comprend les fonctions et les applications qui supportent les activit
 * Informatique et Sécurité : Outils de gestion IT, gestion des accès et des identités (IAM), surveillance et sécurité des systèmes.
 
 ::right::
-![](/public/pos_support.svg)
+![](/pos_support.svg)
 
 ---
 layout: two-cols
@@ -375,7 +375,7 @@ Elle regroupe les services partagés et les ressources communes utilisées par d
 * Infrastructures Partagées : Bases de données centralisées, services de stockage, services réseau.
 
 ::right::
-![](/public/pos_services_communs.svg)
+![](/pos_services_communs.svg)
 
 ---
 
