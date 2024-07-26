@@ -3,7 +3,7 @@ layout: quote
 ---
 
 # Les processus métier
-### Définition des processus métier
+### Définition
 
 Il s'agit d'un ensemble de tâches liées entre elles qui aboutissent à la prestation d'un service ou à la fourniture d'un produit à un client. Un processus métier est également un ensemble d'activités qui permettent d'atteindre un objectif organisationnel spécifique. 
 
