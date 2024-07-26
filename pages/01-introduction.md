@@ -1,7 +1,6 @@
 # Introduction
 
-Ce cours a pour but de présenter une introduction à la définition des processus métier. 
-Au-delà de la simple définition, nous verrons comment ils s'inscrivent dans une démarche d'urbanisation du système d'information et permettent de maîtriser ses évolutions.
+Ce cours vise à introduire les concepts fondamentaux des processus métier. Au-delà de leur simple définition, nous explorerons comment ces processus s'intègrent dans une démarche d'urbanisation du système d'information, permettant ainsi de mieux maîtriser et piloter ses évolutions.
 
 Les points abordés seront :
 
@@ -10,4 +9,4 @@ Les points abordés seront :
 * Les étapes de création d'un logiciel
 * Les processus métier
 * La cartographie des processus
-* Les flux 
+* Les flux
