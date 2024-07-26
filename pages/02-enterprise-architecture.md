@@ -136,6 +136,7 @@ Client -> "Traiter les commandes" : Commande de produits
 
 </v-clicks>
 
+---
 
 ### Dépendances et impacts des processus métier
 
