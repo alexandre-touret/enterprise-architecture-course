@@ -4,7 +4,7 @@ theme: seriph
 # random image from a curated Unsplash collection by Anthony
 # like them? see https://unsplash.com/collections/94734566/slidev
 #background: https://cover.sli.dev
-background: ./public/kaleidico-26MJGnCM0Wc-unsplash.webp
+background: /kaleidico-26MJGnCM0Wc-unsplash.webp
 # some information about your slides (markdown enabled)
 title: Welcome to Enterprise Architecture & Business Processes introduction
 info: |
