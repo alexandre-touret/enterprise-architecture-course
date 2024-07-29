@@ -10,3 +10,20 @@ Les points abordés seront :
 * Les processus métier
 * La cartographie des processus
 * Les flux
+
+
+---
+layout: image-right
+
+image/logo_wl.svg
+backgroundSize: 70%
+--- 
+
+# Qui suis-je ?
+
+## Alexandre Touret
+
+Architecte logiciel à Worldline
+<div class="absolute left-50px bottom-30px">
+https://blog.touret.info
+</div>
