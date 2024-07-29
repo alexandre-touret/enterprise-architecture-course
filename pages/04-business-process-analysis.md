@@ -112,6 +112,11 @@ Ces distinctions sont essentielles pour mod√©liser correctement les processus m√
 
 ![](/Example_Web-Shop.svg)
 
+* [https://bpmn.io/toolkit/bpmn-js/examples/](https://bpmn.io/toolkit/bpmn-js/examples/)
+* [https://www.inveskills.com/bpmn/bpmn-examples/](https://www.inveskills.com/bpmn/bpmn-examples/)
+* [https://www.edrawsoft.com/bpmn-diagram-examples.html](https://www.edrawsoft.com/bpmn-diagram-examples.html)
+
+---
 
 ## Cartographie des processus
 
