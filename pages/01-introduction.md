@@ -15,7 +15,7 @@ Les points abordés seront :
 ---
 layout: image-right
 
-image/logo_wl.svg
+image: /logo_wl.svg
 backgroundSize: 70%
 --- 
 
