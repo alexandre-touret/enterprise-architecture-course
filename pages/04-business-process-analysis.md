@@ -117,7 +117,100 @@ Ces distinctions sont essentielles pour modéliser correctement les processus m�
 * [https://www.edrawsoft.com/bpmn-diagram-examples.html](https://www.edrawsoft.com/bpmn-diagram-examples.html)
 
 ---
+layout: image-right
+image: /logo-ISO-9001.png
+backgroundSize: 100%
+---
 
 ## Cartographie des processus
 
+### Une norme
 
+> Norme ISO 9001
+
+
+La cartographie des processus métier selon la norme ISO 9001 consiste à 
+* Identifier
+* Documenter
+* Analyser les processus clés d'une organisation 
+
+
+---
+layout: two-cols
+---
+
+### Objectifs de la Cartographie des Processus Métier selon ISO 9001
+
+* Conformité
+* Amélioration de la Qualité
+* Efficacité et Efficience
+* Transparence 
+* Satisfaction des Clients
+
+::right::
+
+### Avantages de la Cartographie des Processus Métier selon ISO 9001
+
+* Clarté et Compréhension 
+* Amélioration Continue 
+* Conformité Réglementaire
+* Efficacité Opérationnelle
+* Engagement des Employés
+* Satisfaction des Clients
+
+
+<!-- 
+### Objectifs de la Cartographie des Processus Métier selon ISO 9001
+* Conformité : Assurer que les processus de l'organisation sont conformes aux exigences de la norme ISO 9001.
+* Amélioration de la Qualité : Identifier les opportunités d'amélioration continue des processus pour augmenter la qualité des produits ou services.
+* Efficacité et Efficience : Optimiser les processus pour réduire les gaspillages et améliorer l'efficacité opérationnelle.
+* Transparence : Fournir une vue claire et compréhensible des processus pour tous les membres de l'organisation.
+* Satisfaction des Clients : Améliorer la satisfaction des clients en garantissant que les processus répondent à leurs besoins et attentes.
+
+### Avantages de la Cartographie des Processus Métier selon ISO 9001
+* Clarté et Compréhension : Facilite la compréhension des processus par tous les membres de l'organisation.
+* Amélioration Continue : Identifie les points faibles et les opportunités d'amélioration dans les processus.
+* Conformité Réglementaire : Aide à garantir que les processus sont conformes aux exigences réglementaires et normatives.
+* Efficacité Opérationnelle : Permet d'optimiser les processus pour réduire les coûts et améliorer l'efficacité.
+* Engagement des Employés : Encourage la participation et l'engagement des employés dans l'amélioration des processus.
+* Satisfaction des Clients : Contribue à améliorer la qualité des produits ou services, augmentant ainsi la satisfaction des clients.
+-->
+
+---
+layout: image-right
+image: /processus.svg
+backgroundSize: 100%
+---
+
+## Exemple de cartographie de processus
+
+### Contexte
+Une entreprise de fabrication de pièces automobiles souhaite cartographier ses processus pour se conformer à la norme ISO 9001 et améliorer la qualité de ses produits.
+
+### Étapes de la Cartographie
+Identification des Processus Clés
+
+* Processus de gestion des commandes
+* Processus de production
+* Processus de contrôle qualité
+* Processus de gestion des fournisseurs
+* Processus de gestion des retours clients
+---
+
+### Documentation des Processus
+
+* Processus de gestion des commandes : Réception de la commande, vérification des spécifications, planification de la production.
+* Processus de production : Préparation des matières premières, fabrication, assemblage.
+* Processus de contrôle qualité : Inspection des produits finis, tests de conformité, enregistrement des résultats.
+* Processus de gestion des fournisseurs : Sélection des fournisseurs, évaluation des performances, gestion des contrats.
+* Processus de gestion des retours clients : Réception des retours, analyse des causes, actions correctives.
+
+--- 
+
+## Zoom sur le processus de gestion des commandes
+
+Il est décomposé en un ou plusieurs sous processus.
+
+Exemple:
+
+TODO
