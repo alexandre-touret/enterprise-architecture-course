@@ -128,7 +128,6 @@ backgroundSize: 100%
 
 > Norme ISO 9001
 
-
 La cartographie des processus métier selon la norme ISO 9001 consiste à 
 * Identifier
 * Documenter
@@ -142,21 +141,21 @@ layout: two-cols
 ### Objectifs de la Cartographie des Processus Métier selon ISO 9001
 
 * Conformité
-* Amélioration de la Qualité
-* Efficacité et Efficience
+* Amélioration de la qualité
+* Efficacité et efficience
 * Transparence 
-* Satisfaction des Clients
+* Satisfaction des clients
 
 ::right::
 
 ### Avantages de la Cartographie des Processus Métier selon ISO 9001
 
-* Clarté et Compréhension 
-* Amélioration Continue 
-* Conformité Réglementaire
-* Efficacité Opérationnelle
-* Engagement des Employés
-* Satisfaction des Clients
+* Clarté et compréhension 
+* Amélioration continue 
+* Conformité réglementaire
+* Efficacité opérationnelle
+* Engagement des employés
+* Satisfaction des clients
 
 
 <!-- 
@@ -188,7 +187,7 @@ backgroundSize: 100%
 Une entreprise de fabrication de pièces automobiles souhaite cartographier ses processus pour se conformer à la norme ISO 9001 et améliorer la qualité de ses produits.
 
 ### Étapes de la Cartographie
-Identification des Processus Clés
+Identification des _"Macro"_ Processus Clés
 
 * Processus de gestion des commandes
 * Processus de production
@@ -197,13 +196,15 @@ Identification des Processus Clés
 * Processus de gestion des retours clients
 ---
 
-### Documentation des Processus
+### Documentation des Macro Processus
 
 * Processus de gestion des commandes : Réception de la commande, vérification des spécifications, planification de la production.
 * Processus de production : Préparation des matières premières, fabrication, assemblage.
 * Processus de contrôle qualité : Inspection des produits finis, tests de conformité, enregistrement des résultats.
 * Processus de gestion des fournisseurs : Sélection des fournisseurs, évaluation des performances, gestion des contrats.
 * Processus de gestion des retours clients : Réception des retours, analyse des causes, actions correctives.
+
+> Chaque macro processus pourra être découpé en processus qui seront spécifiés et documentés
 
 --- 
 
@@ -213,4 +214,4 @@ Il est décomposé en un ou plusieurs sous processus.
 
 Exemple:
 
-TODO
+![](/public/bpmn_sample.svg)
