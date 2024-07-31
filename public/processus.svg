@@ -1,0 +1,52 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Gestion des Commandes -->
+  <rect x="50" y="50" width="200" height="100" fill="#add8e6" stroke="#000" />
+  <text x="60" y="80" font-family="Arial" font-size="14">Gestion des Commandes</text>
+  <text x="60" y="100" font-family="Arial" font-size="12">Entrées : Commandes</text>
+  <text x="60" y="120" font-family="Arial" font-size="12">Sorties : Ordres de production</text>
+
+  <!-- Production -->
+  <rect x="300" y="50" width="200" height="100" fill="#90ee90" stroke="#000" />
+  <text x="310" y="80" font-family="Arial" font-size="14">Production</text>
+  <text x="310" y="100" font-family="Arial" font-size="12">Entrées : Ordres de production,</text>
+  <text x="310" y="120" font-family="Arial" font-size="12">Matières premières</text>
+
+  <!-- Contrôle Qualité -->
+  <rect x="550" y="50" width="200" height="100" fill="#ffcccb" stroke="#000" />
+  <text x="560" y="80" font-family="Arial" font-size="14">Contrôle Qualité</text>
+  <text x="560" y="100" font-family="Arial" font-size="12">Entrées : Produits finis</text>
+  <text x="560" y="120" font-family="Arial" font-size="12">Sorties : Produits conformes,</text>
+  <text x="560" y="140" font-family="Arial" font-size="12">Rapports de non-conformité</text>
+
+  <!-- Gestion des Fournisseurs -->
+  <rect x="50" y="200" width="200" height="100" fill="#ffeb3b" stroke="#000" />
+  <text x="60" y="230" font-family="Arial" font-size="14">Gestion des Fournisseurs</text>
+  <text x="60" y="250" font-family="Arial" font-size="12">Entrées : Besoins en matières premières</text>
+  <text x="60" y="270" font-family="Arial" font-size="12">Sorties : Matières premières,</text>
+  <text x="60" y="290" font-family="Arial" font-size="12">Évaluations des fournisseurs</text>
+
+  <!-- Gestion des Retours Clients -->
+  <rect x="300" y="200" width="200" height="100" fill="#dda0dd" stroke="#000" />
+  <text x="310" y="230" font-family="Arial" font-size="14">Gestion des Retours Clients</text>
+  <text x="310" y="250" font-family="Arial" font-size="12">Entrées : Retours clients</text>
+  <text x="310" y="270" font-family="Arial" font-size="12">Sorties : Produits réparés ou remplacés,</text>
+  <text x="310" y="290" font-family="Arial" font-size="12">Rapports d'analyse</text>
+
+  <!-- Clients -->
+  <rect x="550" y="200" width="200" height="100" fill="#d3d3d3" stroke="#000" />
+  <text x="560" y="230" font-family="Arial" font-size="14">Clients</text>
+
+  <!-- Arrows -->
+  <line x1="250" y1="100" x2="300" y2="100" stroke="#000" marker-end="url(#arrow)" />
+  <line x1="500" y1="100" x2="550" y2="100" stroke="#000" marker-end="url(#arrow)" />
+  <line x1="150" y1="150" x2="150" y2="200" stroke="#000" marker-end="url(#arrow)" />
+  <line x1="450" y1="150" x2="450" y2="200" stroke="#000" marker-end="url(#arrow)" />
+  <line x1="650" y1="150" x2="650" y2="200" stroke="#000" marker-end="url(#arrow)" />
+
+  <!-- Arrow Marker -->
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="0" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#000" />
+    </marker>
+  </defs>
+</svg>

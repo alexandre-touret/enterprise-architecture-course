@@ -26,6 +26,8 @@ biblio:
   filename:
     - bibliography.bib
   locale: 'fr-FR' 
+  numerical_ref: false
+  show_id: false
 addons:
 - slidev-addon-citations
 ---
