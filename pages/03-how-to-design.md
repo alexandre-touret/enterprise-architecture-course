@@ -64,19 +64,49 @@ L'utilisation d'outils de monitoring comme Prometheus pour exporter les métriqu
 ---
 
 # Les processus métier
-### Définition
+## Définition
 
-> Il s'agit d'un ensemble de tâches liées entre elles qui aboutissent à la prestation d'un service ou à la fourniture d'un produit à un client. Un processus métier est également un ensemble d'activités qui permettent d'atteindre un objectif organisationnel spécifique. 
+> Il s'agit d'un ensemble de tâches liées entre elles qui aboutissent à la prestation d'un service ou à la fourniture d'un produit à un client. Un processus métier est également un <span v-mark.circle.red>ensemble d'activités qui permettent d'atteindre un objectif organisationnel spécifique</span>. 
 > 
-> Il doit comporter des entrées clairement définies et une sortie unique, dans le cadre d'un traitement de bout en bout piloté par les événements. Les entrées peuvent être classées en processus de gestion, opérationnels et de soutien.
+> Il doit comporter des <span v-mark.circle.red>entrées clairement définies et une sortie unique</span>, dans le cadre d'un traitement de bout en bout piloté par les événements. Les entrées peuvent être classées en processus de gestion, opérationnels et de soutien.
 
-### Objectifs
+## Objectifs
 
 * Rationalisation
+* Piloter la transformation du SI
 * Réutilisation
 <!-- 
 Dire que les processus ne sont pas qu'informatiques mais organisationnels
 -->
+
+---
+
+## Exemple 
+
+
+```plantuml
+@startuml
+actor Client
+actor Fournisseur
+frame Entreprise {
+frame "Satisfaire les commandes"{
+process "Traiter les commandes"
+process "Packager les commandes"
+process "Livrer les commandes"
+process "Acquérir les commandes auprès des fournisseurs"
+}
+}
+
+Client -> "Traiter les commandes" :[Commande de produits]
+"Traiter les commandes" -> "Packager les commandes"
+"Packager les commandes" -> "Livrer les commandes"
+ "Livrer les commandes" -> Client
+"Traiter les commandes"  --> "Acquérir les commandes auprès des fournisseurs"
+"Acquérir les commandes auprès des fournisseurs" -> Fournisseur
+@enduml
+```
+---
+
 
 ---
 

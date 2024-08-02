@@ -47,7 +47,7 @@ Exemple: le schéma directeur de la DSI de la région [Centre Val de Loire](http
 
 ---
 
-### Un exemple de décision... et des conséquences
+## Un exemple de décision... et des conséquences
 
 La direction générale a décidé de réagir très rapidement à l'ouverture du marché à la concurrence.
 
@@ -249,7 +249,7 @@ Elles facilitent la compréhension des <span v-mark.circle.red>relations et des 
 layout: two-cols
 ---
 
-## La cartographie et le Plan d'Occupation des Sols
+# La cartographie et le Plan d'Occupation des Sols
 
 La cartographie d'un système d'information s'appuie sur le Plan d'Occupation des Sols (POS).
 
@@ -421,31 +421,6 @@ layout: two-cols
 
 --- 
 
-## Rappel des processus métier
-
-```plantuml
-@startuml
-actor Client
-actor Fournisseur
-frame Entreprise {
-frame "Satisfaire les commandes"{
-process "Traiter les commandes"
-process "Packager les commandes"
-process "Livrer les commandes"
-process "Acquérir les commandes auprès des fournisseurs"
-}
-}
-
-Client -> "Traiter les commandes" :[Commande de produits]
-"Traiter les commandes" -> "Packager les commandes"
-"Packager les commandes" -> "Livrer les commandes"
- "Livrer les commandes" -> Client
-"Traiter les commandes"  --> "Acquérir les commandes auprès des fournisseurs"
-"Acquérir les commandes auprès des fournisseurs" -> Fournisseur
-@enduml
-```
----
-
-## Leur place dans le POS
+## Exemple de POS
 
 ![](/pos_final.svg)

@@ -13,17 +13,24 @@ Les points abordés seront :
 
 
 ---
-layout: image-right
-
-image: /logo_wl.svg
-backgroundSize: 70%
+layout: intro
 --- 
 
-# Qui suis-je ?
+# Alexandre Touret
 
-## Alexandre Touret
+## Architecte logiciel à Worldline
 
-Architecte logiciel à Worldline
-<div class="absolute left-50px bottom-30px">
-https://blog.touret.info
-</div>
+
+### <mdi-open-in-browser /> https://blog.touret.info
+### <mdi-github /> https://github.com/alexandre-touret/
+### <mdi-linkedin/> https://www.linkedin.com/in/atouret/
+
+---
+layout: image-right
+image: bit.ly_4friioT.svg
+---
+
+# Comment accéder aux cours ?
+
+### <mdi-open-in-browser />[https://blog.touret.info/enterprise-architecture-course/](https://blog.touret.info/enterprise-architecture-course/)
+
