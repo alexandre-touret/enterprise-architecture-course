@@ -1,15 +1,4 @@
----
-layout: quote
----
 
-# Les processus métier
-### Définition
-
-Il s'agit d'un ensemble de tâches liées entre elles qui aboutissent à la prestation d'un service ou à la fourniture d'un produit à un client. Un processus métier est également un ensemble d'activités qui permettent d'atteindre un objectif organisationnel spécifique. 
-
-Il doit comporter des entrées clairement définies et une sortie unique, dans le cadre d'un traitement de bout en bout piloté par les événements. Les entrées peuvent être classées en processus de gestion, opérationnels et de soutien.
-
----
 
 ## Méthodologie
 
@@ -133,6 +122,7 @@ La cartographie des processus métier selon la norme ISO 9001 consiste à
 * Documenter
 * Analyser les processus clés d'une organisation 
 
+Exemple: [https://www.strategik.net/blog-iso-9001/cartographie-processus/](https://www.strategik.net/blog-iso-9001/cartographie-processus/).
 
 ---
 layout: two-cols
