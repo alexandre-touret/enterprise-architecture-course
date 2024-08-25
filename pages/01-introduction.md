@@ -1,3 +1,17 @@
+---
+layout: intro
+--- 
+
+# Alexandre Touret
+
+## Architecte logiciel à Worldline
+
+### <mdi-open-in-browser /> https://blog.touret.info
+### <mdi-github /> https://github.com/alexandre-touret/
+### <mdi-linkedin/> https://www.linkedin.com/in/atouret/
+
+---
+
 # Introduction
 
 Ce cours vise à introduire les concepts fondamentaux des processus métier. Au-delà de leur simple définition, nous explorerons comment ces processus s'intègrent dans une démarche d'urbanisation du système d'information, permettant ainsi de mieux maîtriser et piloter ses évolutions.
@@ -10,20 +24,6 @@ Les points abordés seront :
 * Les processus métier
 * La cartographie des processus
 * Les flux
-
-
----
-layout: intro
---- 
-
-# Alexandre Touret
-
-## Architecte logiciel à Worldline
-
-
-### <mdi-open-in-browser /> https://blog.touret.info
-### <mdi-github /> https://github.com/alexandre-touret/
-### <mdi-linkedin/> https://www.linkedin.com/in/atouret/
 
 ---
 layout: image-right

@@ -76,10 +76,10 @@ Pour définir un SI on va s'appuyer sur différentes visions complémentaires :
 
 La vue métier se concentre sur les processus et les activités de l'entreprise. Elle décrit comment l'entreprise fonctionne, quels sont ses objectifs, et comment les différentes activités et processus s'articulent pour atteindre ces objectifs.
 
-* Objectifs et Stratégies : Définition des objectifs de l'entreprise et des stratégies pour les atteindre.
-* Processus Métier : Description des processus métier clés, de leur déroulement et des interactions entre eux.
-* Rôles et Responsabilités : Identification des acteurs (humains ou systèmes) impliqués dans les processus métier et leurs responsabilités.
-* Flux d'Information : Analyse des flux d'information nécessaires au bon fonctionnement des processus métier.
+* Objectifs et Stratégies
+* Processus Métier
+* Rôles et Responsabilités
+* Flux d'Information
 
 
 <v-clicks>
@@ -98,15 +98,23 @@ Client -> "Satisfaire les commandes" :[Commande de produits]
 ```
 </v-clicks>
 
+<!-- 
+* Objectifs et Stratégies : Définition des objectifs de l'entreprise et des stratégies pour les atteindre.
+* Processus Métier : Description des processus métier clés, de leur déroulement et des interactions entre eux.
+* Rôles et Responsabilités : Identification des acteurs (humains ou systèmes) impliqués dans les processus métier et leurs responsabilités.
+* Flux d'Information : Analyse des flux d'information nécessaires au bon fonctionnement des processus métier.
+
+-->
+
 ---
 
 ### La vue fonctionnelle
 
 La vue fonctionnelle détaille les fonctions nécessaires pour supporter les processus métier. Elle décrit les services et fonctionnalités attendus des systèmes d'information pour répondre aux besoins métiers.
 
-* Fonctions Métier : Décomposition des processus métier en fonctions ou services spécifiques.
-* Cartographie des Fonctions : Organisation des fonctions en catégories ou domaines fonctionnels.
-* Interactions Fonctionnelles : Définition des interactions et des dépendances entre les différentes fonctions.
+* Fonctions Métier
+* Cartographie des Fonctions
+* Interactions Fonctionnelles
 
 <v-clicks>
  
@@ -136,6 +144,12 @@ Client -> "Traiter les commandes" : Commande de produits
 
 </v-clicks>
 
+<!-- 
+* Fonctions Métier : Décomposition des processus métier en fonctions ou services spécifiques.
+* Cartographie des Fonctions : Organisation des fonctions en catégories ou domaines fonctionnels.
+* Interactions Fonctionnelles : Définition des interactions et des dépendances entre les différentes fonctions.
+
+-->
 ---
 
 ### Dépendances et impacts des processus métier
@@ -174,19 +188,33 @@ Client -> "Traiter les commandes" :[Commande de produits]
 
 La vue applicative se concentre sur les applications et les systèmes informatiques qui implémentent les fonctions identifiées dans la vue fonctionnelle. Elle décrit comment les applications sont organisées, interconnectées et déployées pour supporter les processus métier.
 
+* Applications et Modules
+* Architecture Applicative
+* Flux Applicatifs
+
+
+<!-- 
 * Applications et Modules : Inventaire des applications et modules logiciels utilisés.
 * Architecture Applicative : Organisation des applications et des modules, y compris les interactions et les intégrations entre eux.
 * Flux Applicatifs : Définition des flux de données et des interactions entre les applications.
 
+-->
 ---
 
 ## La vue technique
 
 La vue technique se focalise sur les aspects technologiques et infrastructurels qui supportent les applications et les systèmes informatiques. Elle décrit les composants matériels et logiciels nécessaires à l'implémentation des applications.
 
+* Infrastructure Technique
+* Architecture Technique
+* Sécurité et Performance
+
+<!-- 
 * Infrastructure Technique : Description des composants matériels (serveurs, réseaux, stockage) et logiciels (systèmes d'exploitation, bases de données, middleware).
 * Architecture Technique : Organisation de l'infrastructure technique et des technologies utilisées.
 * Sécurité et Performance : Aspects relatifs à la sécurité, la résilience, et la performance des systèmes.
+
+-->
 
 ---
 
