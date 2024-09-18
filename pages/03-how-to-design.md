@@ -105,8 +105,6 @@ Client -> "Traiter les commandes" :[Commande de produits]
 "Acquérir les commandes auprès des fournisseurs" -> Fournisseur
 @enduml
 ```
----
-
 
 ---
 
