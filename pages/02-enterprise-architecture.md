@@ -23,7 +23,7 @@ Les causes :
 
 # L' urbanisation
 
-L'urbanisation des SI est utile dans les grandes organisations pour maîtriser le patrimoine et ses évolutions.
+L' urbanisation des SI est utile dans les grandes organisations pour maîtriser le patrimoine et ses évolutions.
 
 Les concepts manipulés pour urbaniser le SI sont:
 * La cartographie du SI avec le plan d'occupation des sols (POS)
@@ -34,7 +34,7 @@ Les concepts manipulés pour urbaniser le SI sont:
 
 ## Comment démarrer ?
 
-L'urbanisation et la conception d'un SI se basent en premier lieu sur des lignes directrices données par le schéma directeur.
+L' urbanisation et la conception d'un SI se basent en premier lieu sur des lignes directrices données par le schéma directeur.
 
 ### Le schéma directeur
 
@@ -452,3 +452,15 @@ layout: two-cols
 ## Exemple de POS
 
 ![](/pos_final.svg)
+
+---
+layout: two-cols 
+---
+
+## Quizz
+
+### https://app.sli.do/event/ir6z4PuAH4Cxc138iip2uB 
+
+::right::
+
+![quizz](/qrcode_slido.png)
