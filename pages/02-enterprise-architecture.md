@@ -411,7 +411,7 @@ Elle regroupe les services partagés et les ressources communes utilisées par d
 
 Un quartier est une subdivision d'une zone. Il regroupe des sous-ensembles plus spécifiques de fonctions et d'applications au sein d'une même zone. Les quartiers permettent de détailler davantage l'organisation au sein d'une zone et de segmenter les responsabilités.
 
-Exemples de quartiers dans la zone ppérationnelle :
+Exemples de quartiers dans la zone opérationnelle :
 
 * Quartier de la Production : Comprend les systèmes de gestion de la production, la planification et le contrôle de la fabrication.
 * Quartier de la Logistique : Inclut les systèmes de gestion des stocks, de la chaîne d'approvisionnement et de la distribution.
