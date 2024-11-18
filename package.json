@@ -6,19 +6,21 @@
     "build": "slidev build",
     "build_prod": "slidev build --base=/enterprise-architecture-course/",
     "dev": "slidev --open",
-    "export": "slidev export"
+    "export": "slidev export --timeout 60000 --wait 10000"
   },
-  "dependencies": {
-    "@slidev/cli": "^0.49.28",
+ "dependencies": {
+    "@mdi/svg": "^7.4.47",
+    "@slidev/cli": "^0.49.29",
     "@slidev/theme-default": "latest",
     "@slidev/theme-seriph": "latest",
     "slidev-addon-citations": "^0.0.13",
-    "vue": "^3.4.31"
+    "vue": "^3.4.38"
   },
   "devDependencies": {
-    "@iconify-json/carbon": "^1.1.36",
+    "@iconify-json/carbon": "^1.2.1",
     "@iconify-json/logos": "^1.1.43",
-    "@iconify-json/mdi": "^1.1.67",
-    "playwright-chromium": "^1.45.1"
+    "@iconify-json/mdi": "^1.2.0",
+    "@mdi/font": "^7.4.47",
+    "playwright-chromium": "^1.47.2"
   }
 }
