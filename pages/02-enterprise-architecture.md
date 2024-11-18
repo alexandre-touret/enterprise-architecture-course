@@ -66,9 +66,7 @@ Les actions à mener sont:
 
 ## Les différentes vues
 
-Pour définir un SI on va s'appuyer sur différentes visions complémentaires :
-
-![](/strates_architecture.svg)
+![strates](/strates_architecture.svg)
 
 --- 
 
