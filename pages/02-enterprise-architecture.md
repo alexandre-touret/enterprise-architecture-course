@@ -10,6 +10,9 @@ Source: Wikipedia [@system-information-wikipedia]
 ---
 
 ## Enjeux
+
+<v-click>
+
 Les SI deviennent de plus en complexes. 
 
 Les causes :
@@ -18,6 +21,8 @@ Les causes :
 * Le cycle des technologies est de plus en plus rapide et difficile à maintenir
 * La gestion du patrimoine de tout le matériel et des applications
 * Les réductions budgétaires qui obligent de faire plus avec moins
+
+</v-click>
  
 ---
 
@@ -114,8 +119,6 @@ La vue fonctionnelle détaille les fonctions nécessaires pour supporter les pro
 * Cartographie des Fonctions
 * Interactions Fonctionnelles
 
-<v-clicks>
- 
 
 ```plantuml
 @startuml
@@ -139,8 +142,6 @@ Client -> "Traiter les commandes" : Commande de produits
 @enduml
 
 ```
-
-</v-clicks>
 
 <!-- 
 * Fonctions Métier : Décomposition des processus métier en fonctions ou services spécifiques.

@@ -37,6 +37,9 @@ addons:
 ## Cours Bases de données 
 
 ### Alexandre Touret
+
+#### <mdi-CreativeCommons /> Creative Commons Attribution 4.0 International
+
 ---
 src: ./pages/01-introduction.md
 ---
