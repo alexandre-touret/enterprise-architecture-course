@@ -193,7 +193,6 @@ Identification des _"Macro"_ Processus Clés
 * Processus de gestion des fournisseurs : Sélection des fournisseurs, évaluation des performances, gestion des contrats.
 * Processus de gestion des retours clients : Réception des retours, analyse des causes, actions correctives.
 
-
 <!--
  **Chaque macro processus pourra être découpé en processus qui seront spécifiés et documentés**
 -->
@@ -204,3 +203,15 @@ Identification des _"Macro"_ Processus Clés
 Il est décomposé en un ou plusieurs sous processus.
 
 ![](/public/bpmn_sample.svg)
+
+---
+layout: two-cols 
+---
+
+## Quizz
+
+### https://app.sli.do/event/ir6z4PuAH4Cxc138iip2uB 
+
+::right::
+
+![quizz](/qrcode_slido.png)
